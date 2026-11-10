@@ -1,7 +1,7 @@
 # CSCE470-Looking-For-Literature
 
 To run the code, you must run this command:\
-python src/cli.py --query "<query>" --title "<title_name>" --author "<author_name>" --publisher "<publisher_name>" --isbn "<isbn>" --top-k <k>
+python src/cli.py --query "<query>" --title "<title_name>" --author "<author_name>" --publisher "<publisher_name>" --isbn "<isbn>" --top-k `<k>`
 
 For example:\
 python src/cli.py --query "young adult books" --title "Half Bad (Half Life, #1)" --author "Sally Green" --publisher "Viking Children's" --isbn "9780698143760" --top-k 1
