@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Looking For Literature</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+</html>
+<body>
+    <script src="./functions.js"></script>
+    <h1>Looking For Literature</h1>
+    <div class="search">
+        <h2>General Search Query</h2> <input type="search" id="query_input">
+        <h2>Title</h2> <input type="search" id ="title_input">
+        <h2>Author</h2> <input type="search" id="author_input">
+        <h2>Publisher</h2> <input type="search" id="publisher_input">
+        <h2>ISBN</h2> <input type="search" id="isbn_input">
+        <h2>Top K Results</h2> <input type="search" id="topk_input">
+    </div>
+    <button type="submit" onclick="accept_input()">Search</button>
+    <h2>Results</h2> 
+    <div class="results" >
+        <p id="results_output"></p>
+    </div>
+</body>

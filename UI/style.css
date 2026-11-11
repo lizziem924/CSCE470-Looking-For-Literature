@@ -1,0 +1,37 @@
+body {
+    margin-left: 12px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+button {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 30%;
+    padding: 6px;
+}
+button:hover {
+    background-color: lightblue;
+}
+.search {
+    display: grid;
+    grid-template-columns: max-content min-content;
+    align-items: center; 
+    column-gap: 100px;
+    row-gap: 0px;
+}
+input[type="search"] {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-radius: 20%;
+    height: min-content;
+}
