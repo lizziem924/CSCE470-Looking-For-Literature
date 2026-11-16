@@ -1,20 +1,23 @@
+html {
+    background-color:rgb(193, 206, 225);
+}
 body {
     margin-left: 12px;
 }
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
 }
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
 }
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
 button {
-    font-family:'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     border-radius: 30%;
     padding: 6px;
@@ -22,16 +25,34 @@ button {
 button:hover {
     background-color: lightblue;
 }
+.title {
+    text-align: center;
+}
+.body {
+    display: flex;
+    padding: 20px;
+    background-color:beige;
+    border: 5px solid darkblue;
+    background-clip: padding-box;
+}
 .search {
+    flex: 1;
     display: grid;
-    grid-template-columns: max-content min-content;
+    grid-template-columns: max-content 50%;
     align-items: center; 
     column-gap: 100px;
     row-gap: 0px;
+    border-left-color: lightgrey;
+}
+.results {
+    flex: 1;
+    padding-left: 12px;
+    border-left: 2px solid lightgray;
 }
 input[type="search"] {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     border-radius: 20%;
     height: min-content;
+    background-color:whitesmoke;
 }
