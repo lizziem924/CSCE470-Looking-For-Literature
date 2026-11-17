@@ -1,9 +1,7 @@
 html {
-    background-color:rgb(193, 206, 225);
+    background-color:#432534;
 }
-body {
-    margin-left: 12px;
-}
+
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
@@ -23,31 +21,40 @@ button {
     padding: 6px;
 }
 button:hover {
-    background-color: lightblue;
+    background-color: #C44900;
 }
 .title {
     text-align: center;
+    color:bisque;
 }
 .body {
     display: flex;
     padding: 20px;
-    background-color:beige;
-    border: 5px solid darkblue;
+    border: 5px solid #04151F;
     background-clip: padding-box;
+    background-image: url("book.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: left;
 }
 .search {
     flex: 1;
-    display: grid;
     grid-template-columns: max-content 50%;
     align-items: center; 
     column-gap: 100px;
     row-gap: 0px;
     border-left-color: lightgrey;
+    padding-left: 5%;
 }
 .results {
     flex: 1;
     padding-left: 12px;
-    border-left: 2px solid lightgray;
+    
+}
+.results_body {
+    white-space: pre-line;
 }
 input[type="search"] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
